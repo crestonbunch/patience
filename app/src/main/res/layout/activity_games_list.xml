@@ -1,0 +1,39 @@
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/coordinator_layout">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+        android:name="im.bunch.patience.GamesListFragment" tools:layout="@layout/fragment_games_list"
+        android:layout_width="match_parent" android:layout_height="match_parent" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_game_button"
+            android:src="@drawable/ic_add_24dp"
+            android:cropToPadding="false"
+            app:elevation="3dp"
+            android:layout_marginRight="16dp"
+            android:translationZ="3dp"
+            android:focusable="false"
+            app:borderWidth="0dp"
+            app:backgroundTint="@color/accent_blue"
+            android:tint="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity = "bottom|right"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</com.flipboard.bottomsheet.BottomSheetLayout>

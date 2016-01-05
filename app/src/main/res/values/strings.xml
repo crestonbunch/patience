@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Patience</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_game">GameActivity</string>
+
+    <string name="title_activity_splash_screen">Patience</string>
+    <string name="action_undo">Undo</string>
+
+    <string name="title_activity_game_info">Game Info</string>
+
+    <string name="okay">Okay</string>
+    <string name="nevermind">Nevermind</string>
+    <string name="play_again">Play again</string>
+    <string name="go_back">Go back</string>
+    <string name="undo_last">Undo last move</string>
+    <string name="victory">Victory</string>
+    <string name="congrats">Congratulations! You have won!</string>
+    <string name="out_of_move">Out of moves</string>
+    <string name="no_more_moves">There is nothing more you can do!</string>
+    <string name="about">About</string>
+
+    <string name="licensces">
+        GSON - Apache License 2.0\n
+        J2V8 - Eclipse Public License 1.0\n
+        Flipboard Bottomsheet - BSD License\n
+        Apache Commons IO - Apache License 2.0\n
+        SwipeActionAdapter - Apache License 2.0\n
+        Material Ripple Layout - Apache License 2.0\n
+    </string>
+    <string name="undo">UNDO</string>
+    <string name="game_archived">Game archived.</string>
+    <string name="last_played">"Last played "</string>
+</resources>
