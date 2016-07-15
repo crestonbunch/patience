@@ -379,8 +379,10 @@ public class GamesList extends AppCompatActivity {
         @Override
         protected void onPostExecute(Cursor result) {
             mSavesCursorAdapter.swapCursor(result);
+            //mSavesCursorAdapter.notifyDataSetChanged();
             mCursor.close();
             mCursor = result;
+            mSavesSwipeAdapter.notifyDataSetChanged();
         }
     }
 

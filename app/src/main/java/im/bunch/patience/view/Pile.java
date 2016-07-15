@@ -456,7 +456,6 @@ public class Pile implements RectangleComponent {
 
             mJSModel.releaseLock();
         }
-
     }
 
     /**
